@@ -1,6 +1,8 @@
-// Importing the print module
-mod print;
+// Importing modules
+// mod print;
+mod variable;
 fn main() {
-    // Calling the run function in the print module
-    print::run();
+    // Calling the run function from the modules
+    // print::run();
+    variable::run();
 }
